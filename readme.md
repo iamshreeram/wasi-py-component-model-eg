@@ -1,5 +1,9 @@
-## Steps
+## wasi-component-model
+
+### Pre-Req
 Install python modules - `componentize-py`, `wasmtime-py` and Runtime -  `wasmtime` 
+
+### Steps
 1. Create the **WIT world** you'd like. Below is simple `hello.wit` that would print some string when `hello` function is called 
 ```wit
 package example:hello;
@@ -44,3 +48,8 @@ store = Store(engine)
 hello = Root(store)
 print(f"component says: {hello.hello(store)}")
 ```
+
+### Flow chart :
+<p align="center">
+<img width="872" alt="image" src="https://github.com/iamshreeram/wasi-py-component-model-eg/assets/7752805/c9283659-cb0c-4209-8a2a-f4b53b087350">
+</p>
