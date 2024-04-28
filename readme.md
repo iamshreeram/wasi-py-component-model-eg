@@ -53,3 +53,7 @@ print(f"component says: {hello.hello(store)}")
 <p align="center">
 <img width="872" alt="image" src="https://github.com/iamshreeram/wasi-py-component-model-eg/assets/7752805/c9283659-cb0c-4209-8a2a-f4b53b087350">
 </p>
+
+### Reference :
+1. Above [example](https://github.com/bytecodealliance/componentize-py?tab=readme-ov-file#componentize-py)
+2. Implement host application in other languages - [Rust](https://component-model.bytecodealliance.org/language-support/rust.html#components-in-rust), [Golang](https://component-model.bytecodealliance.org/language-support/go.html#go-tooling), [Python](https://component-model.bytecodealliance.org/language-support/python.html#python-tooling) 
